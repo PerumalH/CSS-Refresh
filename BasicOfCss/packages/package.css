@@ -1,0 +1,59 @@
+main {
+  padding-top: 30px;
+}
+
+.package {
+  width: 80%;
+  margin: 16px 0;
+  border: 4px solid black;
+  border-left: none;
+  background: #214b2c48;
+}
+
+.package:hover,
+.package:active {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.505);
+  border: 4px solid red;
+}
+.clears {
+  clear: both;
+}
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+.subtitle {
+  color: grey;
+}
+.info {
+  padding: 16px;
+  border: 2px solid black;
+  color: #0e4f1f;
+  font-size: 20px;
+  background: white;
+}
+#color1 {
+  background: #8ae3a29d;
+  float: right;
+  border-right: none;
+  border-left: 4px solid black;
+  text-align: right;
+}
+#color1:hover,
+#color1:active {
+  border-left-color: red;
+}
+
+#color2 {
+  background: #02320f76;
+  border-left: none;
+}
+
+#color2 .subtitle {
+  color: brown;
+}
+#color2 .title {
+  color: white;
+}
