@@ -18,12 +18,17 @@ main {
 .clears {
   clear: both;
 }
+#one {
+  border-left: none;
+}
+
 .package a {
   text-decoration: none;
   color: inherit;
   display: block;
   padding: 32px;
 }
+
 .subtitle {
   color: grey;
 }
@@ -44,6 +49,7 @@ main {
 #color1:hover,
 #color1:active {
   border-left-color: red;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.505);
 }
 
 #color2 {
