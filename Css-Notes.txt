@@ -279,3 +279,53 @@ Styling Images: https://www.w3schools.com/css/css3_images.asp
 Filters: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
 Styling SVG: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS
 
+
+dimensions, Sizes, & units.
+
+units - px, %,{ rem , em, }font size, vh, vw 
+
+which properties - to use, 
+
+font-size, padding, border, margin, 
+height, width, top, bottom.
+left, right.
+
+how is size calculated.
+
+Absolute lengths - mostly ignore user settings. - px
+ViewPort Lengths - adjust to current viewPort. - vh
+Font-relative Lengths - Adjust to default font size. - rem, em
+Percentage - % - Special Case.
+
+how is the percentage work on box.
+
+3 rule 
+
+1. position - fixed - viewPort
+2. position - absolute -{ Ancestor/content}+padding.
+3.Position - static,relative - block level element.
+
+
+rem - root font size.
+em - parent font size.
+
+rem need to learn. 16px - 1 rem.
+
+vh, vw.
+
+
+which unit should i choose?
+
+padding, margin - rem
+border - px
+width,height - %,vh,vw
+top,bottom - %
+font-size - rem (em -> children only)
+
+margin : auto to center the block element with exclipt width.
+
+Dive Deeper into Selected Topics
+
+Font size properties and values: https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+Viewport units and browser support: https://caniuse.com/#search=vh
+
