@@ -157,3 +157,62 @@ float positing - using clear to fix the space Specificity
 
 Useful Resources & Links
 More on float: https://developer.mozilla.org/en-US/docs/Web/CSS/float
+
+Position:
+
+to change the position of the element
+
+Why Positioning will improve our Website
+
+Position Elements:
+
+position default value by brower - as a static.
+
+absolute, relative, fixed, sticky.
+
+we can the position using the top, left, bottom, right in the document flow.
+
+viewport - browser window.
+this is all about positing context.
+we can add the position property to the block and inline element.
+using the top, left, bottom, right - we can place any where in the viewport.
+
+using the fixed in Positioning properties - we can make non-movable one.
+
+
+
+z index - by default 0. its help to position the element.
+if one element cover the whole page, and hide the other content. 
+we use z-index to backward the element make visible which are behind it. 
+Ex - if we set bg image but it front of all content, we have to make z-index -1. 
+to make that image set into background.
+
+stack order of element. we could change the order of it, using this.
+
+Absolute - follow the ancester - with use of relative.
+
+relative - it will move from the place where it positioning.
+
+overflow hidden - hidden the content which is beyond of the context. 
+
+sticky - it'll fixed if it reach a particular distance 
+
+stacking Context - parent - parent [childs] - parent
+
+
+
+position - property, documentflow, moving elements[top,left], 
+
+position define anchor point, -  fixed is viewport, 
+another element is absolute, element itself relative,
+sticky - viewport, another element.
+
+z-index - larger value ele is position the ele top of the other element.
+
+stacking context.
+
+Positioning theory: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
+More about the "position" property: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+The z-index: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+The Stacking Context: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
+The "sticky" value and current browser support: https://caniuse.com/#search=sticky
