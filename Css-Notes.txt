@@ -13,7 +13,7 @@ Basics Of CSS :-
 2. Setting up CSS Rules
 3. Selectors, Properties, Values 
 4. Conflicting Styles
- h
+
 
 Three Different Way:
 
@@ -42,16 +42,18 @@ inheritance - element inherit some style from parent element(Low Specificity)
 Combinator :- Combine multiple Selector.
 
 1. Adjacent Sibling - h2 + p {}
-  direct sibling -> second comes after h2 tag
+  direct sibling -> second comes after h2 tag 
+  *immediate following
 
 2. general sibling - h2 ~ p {}
-  after h2 element if p tag comes, it's apply.
+ The general sibling selector (~) selects all elements 
+ that are next siblings of a specified element.
 
 3. child - div > p{}
   direct child of first element.
 
 4. descendant - div p{}
-  all p tags would apply, after the div.
+  all p tags would apply, inside of the div.
 
 
 selector, properties, value: predefine,color,size,function
@@ -124,3 +126,156 @@ The display  Property: https://developer.mozilla.org/en-US/docs/Web/CSS/display
 Pseudo Classes on the MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
 
 Dive deeper into Pseudo Elements: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+More on Css Class:
+
+1. multiple classes on one Element
+2. same-element combination  - chain selector
+3. css class - re-usable, most usable type selector, 
+allow you to mark and name things for styling purpose only
+4. css Id - only used once per page, use if available anyways,
+also got non-css meaning (e.g on page link)
+
+!important - overwrites specifity and all other Selectors
+
+DON'T USE !important
+
+:not() psuedo classes - 
+Browser support - can i use.com
+
+Useful Resources & Links
+A discussion on "classes vs IDs": https://stackoverflow.com/questions/12889362/difference-between-id-and-class-in-css-and-when-to-use-it
+When is using !important  okay? => https://css-tricks.com/when-using-important-is-the-right-choice/
+The :not()  pseudo class: https://developer.mozilla.org/en-US/docs/Web/CSS/:not
+Can I Use: https://caniuse.com/
+
+
+to make a line like a card template, 
+we have to display the every single container as inline-block.
+
+float positing - using clear to fix the space Specificity
+
+Useful Resources & Links
+More on float: https://developer.mozilla.org/en-US/docs/Web/CSS/float
+
+Position:
+
+to change the position of the element
+
+Why Positioning will improve our Website
+
+Position Elements:
+
+position default value by brower - as a static.
+
+absolute, relative, fixed, sticky.
+
+we can the position using the top, left, bottom, right in the document flow.
+
+viewport - browser window.
+this is all about positing context.
+we can add the position property to the block and inline element.
+using the top, left, bottom, right - we can place any where in the viewport.
+
+using the fixed in Positioning properties - we can make non-movable one.
+
+
+
+z index - by default 0. its help to position the element.
+if one element cover the whole page, and hide the other content. 
+we use z-index to backward the element make visible which are behind it. 
+Ex - if we set bg image but it front of all content, we have to make z-index -1. 
+to make that image set into background.
+
+stack order of element. we could change the order of it, using this.
+
+Absolute - follow the ancester - with use of relative.
+
+relative - it will move from the place where it positioning.
+
+overflow hidden - hidden the content which is beyond of the context. 
+
+sticky - it'll fixed if it reach a particular distance 
+
+stacking Context - parent - parent [childs] - parent
+
+position - property, documentflow, moving elements[top,left], 
+
+position define anchor point, -  fixed is viewport, 
+another element is absolute, element itself relative,
+sticky - viewport, another element.
+
+z-index - larger value ele is position the ele top of the other element.
+
+stacking context.
+
+Positioning theory: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
+More about the "position" property: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+The z-index: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+The Stacking Context: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
+The "sticky" value and current browser support: https://caniuse.com/#search=sticky
+
+
+
+background & images.
+
+bg-bg: left, top; - it adjust the x and y axis of the image.
+
+if we use %, crop the top and left. !important.
+using center value - make it as center.
+
+
+Background property:
+
+bg-i - img, bg-c - color, bg-p - set initial position, relative to bg pos.
+bg - s - set size of bg img, bg - rep - how bg img repeat.
+
+bg-origin - set bg pos area. bg-attch - set scrolling behavior.
+
+bg- clip,color - not to img.
+
+origin - related to box. by default padding-box.
+clip - that bg content override the origin of it. 
+attach: scroll, fixed, local.
+
+styling image:
+
+img h,w doesn't handle h,w which we provide to it. when its into the element.
+% value, doesn't work on surrounding container.
+
+it only work when its surrounder by inline block in display.
+
+linear-gradient: in the background image.
+
+first attribute - for direction, for degree, 
+after this, we can use many attribute for colors.
+after this, we can use transparent
+after this, we can use rgba for 
+we can seperate the space for particular color, using  % for color.
+
+radial-gradient: bg as a lips shape.
+
+first attribute- we can change the shape of it, and where this should present, position.
+
+Ex - circle 20px at 20% 50%
+
+using Multiple Background:
+
+only one color should use, gradient treat as image.
+
+for background - separate list has own set of background.
+
+
+Filter: 
+
+its help to change the visible appears of the content.
+
+Summary - background property, shorthand - override all properties, 
+Gradient, Multiple background, img - more difficult to style.
+filter.
+
+The background  Property: https://developer.mozilla.org/en-US/docs/Web/CSS/background
+Styling Images: https://www.w3schools.com/css/css3_images.asp
+Filters: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+Styling SVG: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS
+
