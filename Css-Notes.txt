@@ -199,8 +199,6 @@ sticky - it'll fixed if it reach a particular distance
 
 stacking Context - parent - parent [childs] - parent
 
-
-
 position - property, documentflow, moving elements[top,left], 
 
 position define anchor point, -  fixed is viewport, 
@@ -216,3 +214,68 @@ More about the "position" property: https://developer.mozilla.org/en-US/docs/Web
 The z-index: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 The Stacking Context: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
 The "sticky" value and current browser support: https://caniuse.com/#search=sticky
+
+
+
+background & images.
+
+bg-bg: left, top; - it adjust the x and y axis of the image.
+
+if we use %, crop the top and left. !important.
+using center value - make it as center.
+
+
+Background property:
+
+bg-i - img, bg-c - color, bg-p - set initial position, relative to bg pos.
+bg - s - set size of bg img, bg - rep - how bg img repeat.
+
+bg-origin - set bg pos area. bg-attch - set scrolling behavior.
+
+bg- clip,color - not to img.
+
+origin - related to box. by default padding-box.
+clip - that bg content override the origin of it. 
+attach: scroll, fixed, local.
+
+styling image:
+
+img h,w doesn't handle h,w which we provide to it. when its into the element.
+% value, doesn't work on surrounding container.
+
+it only work when its surrounder by inline block in display.
+
+linear-gradient: in the background image.
+
+first attribute - for direction, for degree, 
+after this, we can use many attribute for colors.
+after this, we can use transparent
+after this, we can use rgba for 
+we can seperate the space for particular color, using  % for color.
+
+radial-gradient: bg as a lips shape.
+
+first attribute- we can change the shape of it, and where this should present, position.
+
+Ex - circle 20px at 20% 50%
+
+using Multiple Background:
+
+only one color should use, gradient treat as image.
+
+for background - separate list has own set of background.
+
+
+Filter: 
+
+its help to change the visible appears of the content.
+
+Summary - background property, shorthand - override all properties, 
+Gradient, Multiple background, img - more difficult to style.
+filter.
+
+The background  Property: https://developer.mozilla.org/en-US/docs/Web/CSS/background
+Styling Images: https://www.w3schools.com/css/css3_images.asp
+Filters: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+Styling SVG: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS
+

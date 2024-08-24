@@ -9,10 +9,13 @@ main {
   margin-top: 36px;
 }
 #text1 {
-  background: url("Image/fl.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(to top, rgba(80, 68, 18, 06) 10%, transparent),
+    url("Image/fl.jpg") left 10% bottom 20% / cover no-repeat border-box;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-image: linear-gradient(to bottom, blue, green, transparent); */
   width: 100%;
+  /* background-image: radial-gradient(); */
   height: 528px;
   padding: 10px;
   color: aliceblue;
@@ -95,6 +98,7 @@ main {
   border-radius: 50%;
   height: 120px;
   margin: auto;
+  padding: 20px;
 }
 .key-feature {
   display: inline-block;

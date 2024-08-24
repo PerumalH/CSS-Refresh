@@ -3,12 +3,13 @@ main {
 }
 
 .background {
-  background: url("/CSS!/CSS-Refresh/BasicOfCss/Image/istockphoto-1456193345-612x612.jpg");
+  background: url("/CSS!/CSS-Refresh/BasicOfCss/Image/istockphoto-1456193345-612x612.jpg")
+    center/cover;
+  filter: grayscale(70%);
   width: 100%;
   height: 100%;
   position: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
   z-index: -1;
 }
 .package {
@@ -47,7 +48,6 @@ main {
   color: white;
   background: red;
   padding: 8px;
-  z-index: 10;
 }
 
 .subtitle {
