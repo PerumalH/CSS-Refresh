@@ -5,6 +5,10 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
+
+body ::-webkit-scrollbar {
+  width: 0;
+}
 .button {
   background-color: #0e4f1f;
   color: white;
