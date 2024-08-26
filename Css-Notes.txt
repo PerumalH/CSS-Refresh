@@ -329,3 +329,10 @@ Dive Deeper into Selected Topics
 Font size properties and values: https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
 Viewport units and browser support: https://caniuse.com/#search=vh
 
+work with js;
+
+accessing style properties, add & remove css classes with classlist.
+
+JavaScript Basics: https://academind.com/learn/javascript
+JavaScript CSS Styles: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
+classList : https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
