@@ -195,3 +195,7 @@ body {
     display: block;
   }
 }
+main {
+  min-height: calc(100vh - 3.5rem -8rem);
+  margin: 3.5rem auto;
+}

@@ -368,3 +368,16 @@ More about device sizes: https://bjango.com/articles/min-device-pixel-ratio/
 Media queries theory: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries
 
 Applying media queries: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+advance attribute selector
+
+~ - lang~="en-us"
+| = lang|="en" kind of prefix
+^ = href^="#" prefix 
+$ = href$=".de" suffix
+* = src*="cdn" at least this value present in src. if use i at last of attritube selectore,
+it is case insens
+
+
+styling inputs, validation feedback with valid, invalid
+
