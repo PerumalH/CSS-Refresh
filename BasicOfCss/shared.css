@@ -49,6 +49,7 @@ body {
 }
 
 .toggle-button {
+  display: none;
   width: 3rem;
   background: transparent;
   border: none;
@@ -181,4 +182,16 @@ body {
 
 .open {
   display: block !important;
+}
+
+@media (max-width: 470px) {
+  .mainNav {
+    display: none;
+  }
+  .toggle-button {
+    display: inline-block;
+  }
+  .main-footer li {
+    display: block;
+  }
 }

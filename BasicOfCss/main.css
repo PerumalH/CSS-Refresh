@@ -24,8 +24,14 @@ main {
   position: relative;
   left: 2px;
   bottom: -250px;
+  font-size: 1.3rem;
 }
 
+@media (min-width: 40rem) {
+  #text1 h1 {
+    font-size: 3rem;
+  }
+}
 .text3 {
   color: rgb(29, 139, 17);
   text-align: center;
@@ -110,6 +116,12 @@ main {
   font-weight: bold;
   color: white;
   font-size: 20px;
+}
+
+@media (max-width: 400px) {
+  .key-feature {
+    display: inline;
+  }
 }
 .modal {
   position: fixed;

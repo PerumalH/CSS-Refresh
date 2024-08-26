@@ -336,3 +336,35 @@ accessing style properties, add & remove css classes with classlist.
 JavaScript Basics: https://academind.com/learn/javascript
 JavaScript CSS Styles: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
 classList : https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+
+hardward vs software.
+
+responsive design
+
+viewPort - adjust site to device viewport, no design changes
+media Queries - change design depending on size, and defined by us}
+
+
+View port - user-scalable="yes",maximum-scale
+
+think media query, as if conditional.
+try to make a website mobile ver,
+we can multiple mq.
+
+css code run top to bottom
+
+finding the breaking point.
+
+min-width - help for, to change into desktop ver 
+
+we can work with logical operator, orientation, [, separation also work]
+
+Dive Deeper into Selected Topics
+
+Absolute lengths on W3.org: https://www.w3.org/TR/css-values-3/#absolute-lengths
+
+More about device sizes: https://bjango.com/articles/min-device-pixel-ratio/
+
+Media queries theory: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries
+
+Applying media queries: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
