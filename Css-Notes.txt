@@ -381,3 +381,33 @@ it is case insens
 
 styling inputs, validation feedback with valid, invalid
 
+working with text and font.
+
+generic families - serif, sanif, cursive, monospace, fantasy[not used]
+
+font families - times new roman, helvetica, brush script, courier new.
+ff is formed from gf. inside the gf there are multiple ff.
+
+default behavior - is browser chose the standard font
+css - generic family- chose generic family -browser select the ff based gf.
+css - font family - user's computer - may not have the font in there computer.
+* web fonts
+* retrieved fro server.
+
+different font has different width. 
+
+locally stored font: to check that css font stack
+web fonts: through google fonts - we can import the style in the css page.
+
+if we import the font, we have to specify the style then only
+we could add that import the custom font.
+
+@font-face {
+  font-family: name;
+  src : url("ttf") format("truetype")
+}
+after the download the file from the googlefont, we use this format.
+we have to add the fw between difference font-face
+
+woff - web open font format.2
+eot - embedded
