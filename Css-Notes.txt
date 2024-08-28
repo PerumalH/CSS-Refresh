@@ -411,3 +411,29 @@ we have to add the fw between difference font-face
 
 woff - web open font format.2
 eot - embedded
+
+font properties:
+size, variant, stretch - it supported by browser.,
+letter-space,white-space, line height,
+
+line height depends on font family we are using.
+text-decoration, we can add two value for this. what line , and style of line and color
+
+text-shadow - offset two,blur, color.
+
+font shorthand - order 
+
+style, variant, weight, size/line-height,  family
+
+font shorthand for system font
+menu,status bar
+
+font-display: for loading performing
+
+block p - box contain the text but not visible
+fallback - 
+swap p - infinite customfont
+
+option.
+auto.
+

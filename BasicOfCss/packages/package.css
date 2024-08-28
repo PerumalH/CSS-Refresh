@@ -59,6 +59,7 @@ main {
   color: #0e4f1f;
   font-size: 20px;
   background: white;
+  text-shadow: 2px 2px 7px rgba(128, 128, 128, 0.507);
 }
 #color1 {
   background: #05e5409d;
