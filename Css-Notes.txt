@@ -437,3 +437,60 @@ swap p - infinite customfont
 option.
 auto.
 
+Dive Deeper into Selected Topics
+
+Web Safe Fonts: https://www.cssfontstack.com/
+Google Fonts: https://fonts.google.com/
+The "line-height" property: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+
+Working with flexbox;
+
+flex container , flex items
+
+get rid of calc - using flexbox.
+
+understanding flexbox:
+
+property - display : flex 
+
+parent - child.
+flex container -flex items
+
+property
+
+parent - flex-flow, align-item, justify-content, align-content, align-item
+child - order, flex, align-self
+
+display: flex - change the size of the child by default.
+inline-flex - dont change the size of the it.
+
+flex-wrap - it adopt the height,width - wrap, reverse,
+flex direction - row, column - reverse
+
+main Axis - cross axis
+
+starting point 
+
+left to right - main - row
+top left to bottom - cross
+
+right to left - main - row reverse
+top right to left - cross
+
+column :
+
+top left to botton  - main
+left to right - cross
+
+bottom left to top = main
+bottom left to right = cross
+
+
+flew-flow for shorthand to direction, wrap.
+
+align items - align the item based on cross axis.
+justify-content - align the item based on main axis.
+align content - align the item based on cross axis
+
+need to play with flex.
+
