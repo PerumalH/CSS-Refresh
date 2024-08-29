@@ -42,11 +42,14 @@ body {
   top: 0%;
   left: 0%;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.mainHeader > div {
+/* .mainHeader > div {
   display: inline-block;
   vertical-align: middle;
-}
+} */
 
 .toggle-button {
   display: none;
@@ -75,12 +78,13 @@ body {
   color: black;
   text-decoration: none;
   font-weight: bolder;
-  height: 18px;
-  display: inline-block;
-  vertical-align: middle;
+  /* height: 18px; */
+  /* display: inline-block;
+  vertical-align: middle; */
 }
 .mainBrand1 img {
-  height: 100%;
+  height: 1.2rem;
+  vertical-align: middle;
 }
 .mainBrand,
 .mobile-nav__items a {
@@ -111,9 +115,10 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  justify-content: flex-end;
 }
 .mainNavItem {
-  display: inline-block;
   margin: 0 10px;
 }
 .mainBrandCTA,
@@ -167,9 +172,13 @@ body {
   width: 90%;
   height: 100%;
   list-style: none;
-  margin: 10% auto;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile-nav__item {
@@ -184,7 +193,7 @@ body {
   display: block !important;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 570px) {
   .mainNav {
     display: none;
   }
@@ -195,6 +204,7 @@ body {
     display: block;
   }
 }
+
 main {
   min-height: calc(100vh - 3.5rem -8rem);
   margin: 3.5rem auto;
