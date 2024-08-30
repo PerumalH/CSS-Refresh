@@ -477,7 +477,7 @@ top left to bottom - cross
 right to left - main - row reverse
 top right to left - cross
 
-column :
+column : pqwq
 
 top left to botton  - main
 left to right - cross
@@ -494,3 +494,24 @@ align content - align the item based on cross axis
 
 need to play with flex.
 
+z-index will the change the order, even if we dont use position.
+
+Flex items:
+
+order - change the item of the order by using number value, 1,-1,2,
+by default 0.
+align-self - change the position of the single element. -on cross axis
+4
+
+flex-grow - it will occupy the remaining space are available - by using number value 1
+by default 0.
+flex- shrink - 
+flex - basis - it override the height & widht based on main axix depend on direction
+
+flex - grow, shrink, basis - shorthand
+
+Dive Deeper into Selected Topics
+
+Flexbox and browser compatibility: https://caniuse.com/#search=flexbox
+The theory behind flexbox: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+The flex container: https://developer.mozilla.org/en-US/docs/Glossary/Flex_Container
