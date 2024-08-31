@@ -1,0 +1,31 @@
+.container {
+  margin: 20px;
+  display: grid;
+  height: 400px;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 100px minmax(10%, 50%) 200px;
+}
+.el1 {
+  background: red;
+}
+.el2 {
+  background: yellow;
+}
+.el3 {
+  background: green;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  z-index: 10;
+}
+.el4 {
+  background: grey;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.el5 {
+  background: orange;
+}

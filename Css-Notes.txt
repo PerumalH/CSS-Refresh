@@ -514,4 +514,84 @@ Dive Deeper into Selected Topics
 
 Flexbox and browser compatibility: https://caniuse.com/#search=flexbox
 The theory behind flexbox: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
-The flex container: https://developer.mozilla.org/en-US/docs/Glossary/Flex_Container
+The flex container: https://developer.mozilla.org/en-US/docs/Glossary/Flex_Container 
+
+the Grid.
+
+we divide the part as row and column.
+which element should position where.
+
+only direct children, part of the grid.
+
+we can change template of grid as row and column.
+we can positioning the grid item into two cells more than that.
+in row and column.
+
+we define the layout - a container
+we define the position - a item
+
+template-row and template-column - for grid container. for layout.
+column start and end, row start and end - for grid items. to position by line number
+
+auto - to fill remain space,
+
+repeat - we can use this share the same size and no of grid - we actually need.
+
+minmax - we can use this for apply min and max size for particular row and column.
+
+element can overlap the cells.
+
+span - helps to occupy the cell by default 1.
+if span 3 , it occupy 3 cells from 1st cell 
+
+we could name the row as many as we need.
+
+we could use that name, to use for position instead of number.
+not for span.
+
+shorthand - for grid-row-column-start-end- ;
+grid-row : startvalue/endValue
+for combine - grid area : rowstart/ column start/ rowend /column end
+
+Gaps - 
+grid-gap: row column.
+
+grid-template-area:
+
+we can create a template by cells - like 2 row, 3 column. 6 cell.
+named the cells and use that in grid-area property to map into particular cell.
+
+auto generating grid areas - to use -start and -end 
+
+fit-content() - to obtain the content in the particular space, even its big or small. it change the size for that space
+
+its for grid container:
+
+justify-item: for grid. - stretch is default.
+align-item: - stretch is default
+align-content: y axix
+justify-conten: x axix
+
+its for grid item:
+align-self:
+justify-self:
+
+to positioning the item in the grid. we can override the stretch for particular cell.
+
+Actually, grid create row for their child.
+we can change that by add column-template or auto-flow
+and also style the row and column by auto-row or column - [use dense] - changing the order.
+
+exclipt grid by user define.
+
+dynamic grid - to use auto-fill , auto-fit. - use the available space in the best possible way.
+
+
+one-dimensions - flex box
+multiple-dimensions - grid box.
+
+chose based on the need.
+
+A really great article series on the CSS Grid: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+A complete guide to CSS Grid: https://css-tricks.com/snippets/css/complete-guide-grid/
+
