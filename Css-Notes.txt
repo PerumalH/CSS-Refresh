@@ -595,3 +595,53 @@ chose based on the need.
 A really great article series on the CSS Grid: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
 A complete guide to CSS Grid: https://css-tricks.com/snippets/css/complete-guide-grid/
 
+transform: -> translate
+
+translate  move based on how it present.
+
+rotateZ(). - by default z axis.
+origin by default center.
+
+skew - for angle  and scale - increase the size 
+
+rotate - x, y, z.
+
+perspective -
+backface-visibility - 
+ 
+CSS Transforms: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms
+3D Transforms: https://desandro.github.io/3dtransforms/
+
+
+Transition - which property, initial delay, how long should it take?,
+timing Function: "start fast, end slow"
+
+transition: which property should i watch - duration - timing funtion - delay
+
+timing funtion: linear, easin, out.
+
+animation:
+
+using keyframe - named this - using in animation 
+
+animation - keyframe name, delay, duration, 8 
+
+The animation  property is used as see in the previous video:
+
+animation: NAME DURATION DELAY TIMING-FUNCTION ITERATION DIRECTION FILL-MODE PLAY-STATE; 
+
+Example:
+
+animation: wiggle 200ms 1s ease-out 8 alternate forwards running; 
+
+The transition  property is used as see in the previous video:
+
+transition: WHAT DURATION DELAY TIMING-FUNCTION; 
+
+Example:
+
+transition: opacity 200ms 1s ease-out; 
+
+CSS Transitions: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+CSS Animations: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+List of "transitionable" Properties: https://www.w3.org/TR/css-transitions-1/#animatable-properties
