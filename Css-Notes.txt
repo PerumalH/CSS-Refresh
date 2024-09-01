@@ -645,3 +645,69 @@ transition: opacity 200ms 1s ease-out;
 CSS Transitions: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
 CSS Animations: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 List of "transitionable" Properties: https://www.w3.org/TR/css-transitions-1/#animatable-properties
+
+css variable:
+
+using root pseudo selector;
+
+--name-name :
+
+when we declare in var() , in the property value.
+
+vendor prefixesn - autoprefixer
+
+@support - some feature just arent implemented (yet) in some browser.
+
+it check like if state.
+
+polyfills
+
+it is a js package, which enable certain css features in browers.
+which would not support
+
+eliminate cross-browser inconsistencies.
+
+browser use different defaults.
+
+use reset-library - normalise.css
+
+choosing class names correctly
+
+do - use kebab-case, name by feature
+dont - snake-Case, name by style
+
+block element modifier (BEM)
+
+a uniform and consistent way fo naming your css classes.
+
+. block __ element -- modifier
+
+. menu__item--hightlighted
+
+vanilla vs css frameworks
+
+component frameworks, utility framework
+
+v css - full control, no unnecessary code, name clss as you like.
+c f - radip Development, follow best practice, no need to be an expert.
+u f - faster development, follow best practice, no expert knowledge needed.
+
+v css - can't - build everything from scratch, danger of bad code.
+c f - can't - no or little control , unnecessary overhead code, all website look the same.
+u f - can't - little control, unnecessary overhead code. 
+
+CSS Modules & Working Groups: https://www.w3.org/TR/tr-groups-all#tr_Cascading_Style_Sheets__CSS__Working_Group
+
+CSS Variables: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+
+Vendor Prefixes: https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix
+
+Which Vendor Prefixes should you use? => http://shouldiprefix.com/
+
+@supports: https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports
+
+BEM in Detail: http://getbem.com/introduction/
+
+An introduction to Bootstrap 4: https://academind.com/learn/css/bootstrap-4-tutorial/
+
+CSS Polyfills: https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
