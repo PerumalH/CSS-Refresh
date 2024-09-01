@@ -711,3 +711,51 @@ BEM in Detail: http://getbem.com/introduction/
 An introduction to Bootstrap 4: https://academind.com/learn/css/bootstrap-4-tutorial/
 
 CSS Polyfills: https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
+
+Sass - superset of CSS - css on steroid
+
+SCSS and SASS is same - syntax different.
+ 
+Syntactically awesome style sheet.
+
+does not run in the Browser, - it extends CSS - during Development.
+[nested css]
+need complied to css before production.
+
+SASS Feature:
+
+Nested rule - shorthand the code
+helper functions - color brighter
+inheritance - dont need to repeat code
+mixins -  reuse snippets 
+partials - split the code
+conditions & loops
+varibles - set the value of color, hex code.
+
+for sass - we don't need ;,{}.
+for scss - we can use this.
+
+sass - instead, we use indentation for which selector belongs to which property in above level.
+
+nested rule:
+
+previous, we use Combinator selector. for scss - instead we use nested.
+sass main.scss main.css - sass sass-file output-file
+sass --watch main.scss:main.css - to watch realtime style -while change of scss file code.
+
+nested property:
+
+for flex based properties - everything followed by flex.
+in that case - we use the flex as property name and continue by curly braces insid 
+that we can add the flex based properties.
+
+understanding varibles:
+
+like css varible - we use here varible - using $ in the start of the name.
+
+// - comment line in scss
+lists & maps:
+
+list - more than one value in the variable
+
+map - (key: value) - to access the value of map - map-get(variblename, key)
