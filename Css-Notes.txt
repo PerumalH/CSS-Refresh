@@ -759,3 +759,8 @@ lists & maps:
 list - more than one value in the variable
 
 map - (key: value) - to access the value of map - map-get(variblename, key)
+
+build-in function:
+there are more build-in function.
+
+Ex-lighten(color, shades by percentage)
