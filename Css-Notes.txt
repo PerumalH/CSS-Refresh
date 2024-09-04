@@ -764,3 +764,38 @@ build-in function:
 there are more build-in function.
 
 Ex-lighten(color, shades by percentage)
+
+Arithmetics:
+
+we can addition, sub, mul, div
+
+better import & partial:
+
+partial - we using this to store variables in the seperate file, start with _.
+
+import - we can use multiple scss files, and import in the main scss.
+then we compile it, and stored as single css file.
+
+advance media:
+
+we use Media_Queries in the nested way, under the specific selector.
+
+inheritance:
+
+we can separately create a class which is same style for others.
+
+and using @extend with class-name to add in the needed one, inside the {}
+
+mixins:
+
+reusable function - own function.
+
+@mixins - for initial, @content - to the content into the function , 
+@include- for call the function inside the selector.
+
+we can create function , also with passing argument.
+
+
+& - it helps to append the selectors, psuedo code.
+
+Dive deeper into Sass: https://sass-lang.com/guide

@@ -1,4 +1,11 @@
 @import "typography.css";
+$border-style: 0.05rem solid #521751;
+$website-color: (
+  main: white,
+  primary: #fae5ff,
+  secondary: purple,
+  hover-color: lighten(#fa923f, 10%),
+);
 html {
   font-size: 94.75%;
 }
@@ -21,22 +28,25 @@ body {
 }
 
 .sass-introduction {
-  border: 0.05rem solid #521751;
-  background: #fae5ff;
+  border: $border-style;
+  background: map-get($website-color, primary);
   padding: 2rem;
   text-align: center;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
   width: 90%;
   box-sizing: border-box;
+  p {
+    margin: 0;
+  }
 }
 
-.sass-introduction p {
-  margin: 0;
-}
+// .sass-introduction p {
+//   margin: 0;
+// }
 
 .sass-details {
-  border: 0.05rem solid #521751;
-  background: #fae5ff;
+  border: $border-style;
+  background: map-get($website-color, primary);
   padding: 1rem;
   text-align: center;
   margin: 2rem 0;
@@ -45,12 +55,15 @@ body {
 }
 
 .section-header {
-  border-bottom: 0.05rem solid #521751;
+  border-bottom: $border-style;
+  h1 {
+    margin: 0 0 1rem 0;
+  }
 }
 
-.section-header h1 {
-  margin: 0 0 1rem 0;
-}
+// .section-header h1 {
+//   margin: 0 0 1rem 0;
+// }
 
 .documentation-links {
   list-style: none;
@@ -63,20 +76,20 @@ body {
   flex-direction: column;
   li {
     margin: 0.2rem 0;
-    background: white;
+    background: map-get($website-color, main);
   }
   .documentation-link {
     text-decoration: none;
-    color: #521751;
+    color: map-get($website-color, secondary);
     display: block;
     padding: 0.2rem;
-    border: 0.05rem solid #521751;
+    border: $border-style;
   }
   .documentation-link:hover,
   .documentation-link:active {
-    color: white;
-    background: #fa923f;
-    border-color: #fa923f;
+    color: map-get($website-color, main);
+    background: map-get($website-color, hover-color);
+    border-color: map-get($website-color, hover-color);
   }
 }
 
@@ -87,10 +100,10 @@ body {
 
 .documentation-links {
   text-decoration: none;
-  color: #521751;
+  color: map-get($website-color, secondary);
   display: block;
   padding: 0.2rem;
-  border: 0.05rem solid #521751;
+  border: $border-style;
 }
 
 // .documentation-links .documentation-link:hover,
