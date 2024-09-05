@@ -568,9 +568,9 @@ fit-content() - to obtain the content in the particular space, even its big or s
 its for grid container:
 
 justify-item: for grid. - stretch is default.
-align-item: - stretch is default
-align-content: y axix
-justify-conten: x axix
+align-item: - stretch is default.
+align-content: y axix.
+justify-conten: x axix.
 
 its for grid item:
 align-self:
