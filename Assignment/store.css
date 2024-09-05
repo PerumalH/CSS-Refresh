@@ -19,11 +19,14 @@ body {
   background-color: blueviolet;
   align-items: center;
   justify-content: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 .item-Product {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 10px;
 }
 .product {
   align-self: center;
@@ -35,4 +38,17 @@ body {
   height: 50px;
   border-radius: 50%;
   border: 2px solid black;
+}
+.main {
+  background-color: grey;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic img {
+  width: 100%;
+  padding-bottom: 30px;
 }
