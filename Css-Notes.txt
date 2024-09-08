@@ -801,3 +801,46 @@ we can create function , also with passing argument.
 Dive deeper into Sass: https://sass-lang.com/guide
 
 we can use animation while we hover the things
+
+Three Pillar of writing good Html and css.
+
+responsive design:
+
+fluid layouts
+media queries
+responsive images
+correct units
+desktop-first vs mobile-first
+
+Maintainable and scalable code:
+clean
+easy-to-understanding
+growth
+reusable
+how to organize files
+how to name classes
+how to structure html
+
+web performance:
+less http requests
+less code
+compress code.
+use a css preprocessor
+less images
+compress images
+
+how css works behind the scenes:
+
+load html -> parse html ---> dom [it decode the html and store - document object model]
+
+after parse html --> load css -> parse css 
+[resolve Conflicting css declarations (cascade) & process final css values]  --> css object model [cssom]
+
+this two things formed as render tree --> website rendering: the visual formatting model.
+
+parsing phase:
+
+cascade - process of combining the different stylesheets and resolving conflicts between css rules and declarations,
+when more than one rule applies to a certain element.
+
+value Processing - 
