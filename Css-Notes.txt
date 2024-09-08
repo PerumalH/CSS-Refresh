@@ -799,3 +799,5 @@ we can create function , also with passing argument.
 & - it helps to append the selectors, psuedo code.
 
 Dive deeper into Sass: https://sass-lang.com/guide
+
+we can use animation while we hover the things
