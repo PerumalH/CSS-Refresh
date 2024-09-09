@@ -843,4 +843,11 @@ parsing phase:
 cascade - process of combining the different stylesheets and resolving conflicts between css rules and declarations,
 when more than one rule applies to a certain element.
 
-value Processing - 
+value Processing.
+
+inheritance  - it passes the values for some specific properties from
+parents to children - more Maintainable code.
+
+initial - reset the value 
+inherit - inherit the value of parent one.
+
