@@ -851,3 +851,9 @@ parents to children - more Maintainable code.
 initial - reset the value 
 inherit - inherit the value of parent one.
 
+if we use the fontsize value as %, % translate the default browser setting value.
+
+62.5% - 10px
+
+if we use px, it won't used for change the font size by user in browser setting.
+
