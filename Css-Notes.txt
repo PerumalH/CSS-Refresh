@@ -857,3 +857,46 @@ if we use the fontsize value as %, % translate the default browser setting value
 
 if we use px, it won't used for change the font size by user in browser setting.
 
+Visual Formatting Model - Algorithm That calculates Boxs and determines the layout
+of theses boxed, for each element in the render tree, in order to determine the final layout of the page.
+
+dimensions of boxes:
+the box model.
+
+content - text and image etc.
+padding - transparent area around the content,
+inside the box
+border - goes around the padding and content.
+margin - space between boxes.
+fill area - for background image,color - this don't follow the padding
+
+width - border,padding,width - left and right.
+height - border, padding, height - top and bottom
+
+if we use the border-box ,any border and padding in the values you specify 
+for an element's width and height.
+it always fit in its container. - Block-level
+
+
+block - vertical , line breaks, flex, list-item, table
+100% of parent's width, box-model applied as shown.
+
+inline-block - mix, only occupies contents space, no line break, box-model.
+
+inline - content distributed in lines, padding and margin only horizontal, no height and widths.
+
+
+positioning schemes
+1. normalflow - elements laid out accord to the source code.
+2. floats - remove normal , text and inline elements will around the floate elements.
+the container will not adjust its height to the element.
+3. absolute positioning - we can play around it, it wont the affect the other element.
+
+stacking contexts.
+
+z-index - order of content.
+
+
+
+
+
