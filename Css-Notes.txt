@@ -896,7 +896,67 @@ stacking contexts.
 
 z-index - order of content.
 
+javascript - object.
 
+we can store - value,function,
 
+object.assign(target,source)  - we transfer the data of one to target.
+object.entries() returns an array of the key/value pairs in an object.
+The fromEntries() method creates an object from a list of key/value pairs.
+Object.values() is similar to Object.entries(), but returns a single dimension array of the object values
+Object.groupBy() method groups elements of an object according to string values returned from a callback function.
+The Object.keys() method returns an array with the keys of an object.
 
+property Management Methods.
+The Object.defineProperty() method can be used to:
 
+Adding a new property to an object
+Changing property values
+Changing property metadata
+Changing object getters and setters
+
+writable : true      // Property value can be changed
+enumerable : true    // Property can be enumerated
+configurable : true  // Property can be reconfigured
+writable : false     // Property value can not be changed
+enumerable : false   // Property can be not enumerated
+configurable : false // Property can be not reconfigured
+
+The Object.getOwnPropertyNames() method can:
+
+List object properties
+
+//Create an object
+const person = {firstName:"John", lastName:"Doe"};
+
+// Define a getter
+Object.defineProperty(person, "fullName", {
+  get: function () {return this.firstName + " " + this.lastName;}
+});
+
+// Prevents re-assignment
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// Prevents adding object properties
+Object.preventExtensions(object)
+
+// Returns true if properties can be added to an object
+Object.isExtensible(object)
+
+// Prevents adding and deleting object properties
+Object.seal(object)
+
+// Returns true if object is sealed
+Object.isSealed(object)
+
+// Prevents any changes to an object
+Object.freeze(object)
+
+// Returns true if object is frozen
+Object.isFrozen(object)
+
+The JavaScript prototype property allows you to add new properties to object constructors:
+
+get and set - don't need to add :.
+
+this keyword to use access the data inside of object
