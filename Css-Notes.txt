@@ -960,3 +960,20 @@ The JavaScript prototype property allows you to add new properties to object con
 get and set - don't need to add :.
 
 this keyword to use access the data inside of object
+
+
+Css - Architecture
+
+Thinking of the Layout
+
+component-driven design
+
+1. modular building blocks that make up interfaces;
+2. held together by the layout of the page;
+3. Re-usable across a project, and between different projects;
+4. independent, allowing us to use them anywhere on the page.
+
+Build - BEM
+
+Architect - 7-1 pattern.
+
