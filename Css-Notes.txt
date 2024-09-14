@@ -978,4 +978,43 @@ Build - BEM
 Architect - 7-1 pattern.
 
 
+7 folder - 1 main scss
+
+base folder - base file -
+real low lever basic such as reset and 
+style of html,
+body elements selectors.
+
+_partial file in the base. - to import this no need of _
+
+abstract folder - for mixins, function, variable
+component folder - for reusable building blocks
+held together layout of the page.
+Layout folder - header,footer - for global. -every page.
+pages folder - like home page.
+
+
+theme folder 
+vendor folder - third party css
+
+Basic responsive Design Principle
+
+1. fluid layout - it's based on current viewport w/h - to allow webpage to adapt
+use % or vw/vh unit instead of pd for elements that adopt that should adapt to viewport - usually layout.
+use max-width instead of width.
+
+2. responsive units - rem instead of px for most length.
+to make it easy to scale the entire layout down or up automatically.
+
+3. flexible img - by default, images don't scale automatically as we change the viewport.
+so we need to fix that. 
+to use % for image dimension and together max-width property based on situation.
+
+4. media queries - to change css styles on certain viewport widths - called breakpoints.
+
+
+1.1 -- float layout - natour.  
+1.2 -- flex layout - trillo. one dimensional row without float. perfect for components layouts.
+1.3 -- grid layout - nexter. 2 dimensional grid. perfect for page layouts and complex components.
+
 
