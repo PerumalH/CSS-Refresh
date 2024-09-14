@@ -1,0 +1,12 @@
+{
+  "name": "natour",
+  "version": "1.0.0",
+  "description": "Tour Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass sass/main.scss css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Perumal Hpk",
+  "license": "ISC"
+}

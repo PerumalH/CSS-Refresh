@@ -746,8 +746,8 @@ sass --watch main.scss:main.css - to watch realtime style -while change of scss 
 nested property:
 
 for flex based properties - everything followed by flex.
-in that case - we use the flex as property name and continue by curly braces insid 
-that we can add the flex based properties.
+in that case - we use the flex as property name and continue by curly braces inside
+that we can add the flex based properties. & - used for pseudo class and pseudo element.
 
 understanding varibles:
 
@@ -976,4 +976,6 @@ component-driven design
 Build - BEM
 
 Architect - 7-1 pattern.
+
+
 
