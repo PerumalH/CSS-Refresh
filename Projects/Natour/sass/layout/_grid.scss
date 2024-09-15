@@ -1,6 +1,6 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
+  // background-color: #eee;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -12,7 +12,7 @@
   // where the place class start with col- , this will apply
   [class^="col-"] {
     float: left;
-    background-color: red;
+    // background-color: red;
 
     &:not(:last-child) {
       margin-right: $gutter-horizontal;
