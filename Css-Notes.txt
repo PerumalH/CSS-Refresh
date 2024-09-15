@@ -1012,9 +1012,14 @@ to use % for image dimension and together max-width property based on situation.
 
 4. media queries - to change css styles on certain viewport widths - called breakpoints.
 
-
 1.1 -- float layout - natour.  
 1.2 -- flex layout - trillo. one dimensional row without float. perfect for components layouts.
 1.3 -- grid layout - nexter. 2 dimensional grid. perfect for page layouts and complex components.
 
+center the block inside another block element the viewport - margin: 0 auto;
+
+psuedo class Not - expect the selected one.
+normal - selected one.
+
+for fluid layout - we use float and clear fix to make a layout linear.
 
