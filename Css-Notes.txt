@@ -1029,4 +1029,5 @@ by position - we can achieve card flip with use of rotate - perspective: 150rem 
 when we use this kind of effect - just apply backward-visibility : hidden.
 also we position relative - size of the container which is parent one collapse so we have to define the child size to parent.
 
+when image or other overflow the parent one - we use overflow hidden.
 
