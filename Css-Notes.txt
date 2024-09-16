@@ -1024,3 +1024,9 @@ normal - selected one.
 for fluid layout - we use float and clear fix to make a layout linear.
 
 and position the image, outline.skew.
+
+by position - we can achieve card flip with use of rotate - perspective: 150rem always.
+when we use this kind of effect - just apply backward-visibility : hidden.
+also we position relative - size of the container which is parent one collapse so we have to define the child size to parent.
+
+
