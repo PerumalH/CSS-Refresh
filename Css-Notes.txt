@@ -1031,3 +1031,6 @@ also we position relative - size of the container which is parent one collapse s
 
 when image or other overflow the parent one - we use overflow hidden.
 
+background-blend-mode , box-decoration-break.
+by positioning the img on the start of content - using absolute to move the heading top of image, and list out the tour things by ul.
+
