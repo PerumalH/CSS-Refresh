@@ -1034,3 +1034,5 @@ when image or other overflow the parent one - we use overflow hidden.
 background-blend-mode , box-decoration-break.
 by positioning the img on the start of content - using absolute to move the heading top of image, and list out the tour things by ul.
 
+whenever - we get the glitch or something weird behavior happen while using transition and animation.
+we could use backface-visibility to fix it.
