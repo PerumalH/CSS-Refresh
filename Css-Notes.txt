@@ -1036,3 +1036,6 @@ by positioning the img on the start of content - using absolute to move the head
 
 whenever - we get the glitch or something weird behavior happen while using transition and animation.
 we could use backface-visibility to fix it.
+
+shape-outside - used to give space around the content in a shape form, like circle, triangle.
+object- fit - used for fit in the content same as bg-size
