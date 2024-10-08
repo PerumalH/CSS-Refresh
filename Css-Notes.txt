@@ -1039,3 +1039,5 @@ we could use backface-visibility to fix it.
 
 shape-outside - used to give space around the content in a shape form, like circle, triangle.
 object- fit - used for fit in the content same as bg-size
+
+solid - color - gradient  = with linear gradient we can achieve this. using the deg to make angle in the img.
