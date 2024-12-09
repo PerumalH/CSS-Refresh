@@ -3,6 +3,9 @@
   padding: 10rem 0;
   font-size: 1.4rem;
   color: $color-grey-light-1;
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
 
   &__logo-box {
     text-align: center;
@@ -13,11 +16,17 @@
     width: 15rem;
     height: auto;
   }
+
   &__navigation {
     border-top: 1px solid $color-grey-dark;
     padding-top: 2rem;
     display: inline-block;
+    @include respond(tab-port) {
+      width: 100%;
+      text-align: center;
+    }
   }
+
   &__list {
     list-style: none;
   }
@@ -28,6 +37,7 @@
       margin-right: 1.5rem;
     }
   }
+
   &__link {
     &:link,
     &:visited {
@@ -49,5 +59,9 @@
     padding-top: 2rem;
     float: right;
     width: 80%;
+    @include respond(tab-port) {
+      width: 100%;
+      float: none;
+    }
   }
 }
