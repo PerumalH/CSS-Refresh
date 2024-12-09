@@ -53,21 +53,46 @@
   &_left {
     width: 33.33%;
     display: table-cell;
+    @include respond(tab-port) {
+      width: 45%;
+      align-content: center;
+      height: auto;
+    }
+    @include respond(phone) {
+      display: inline-block;
+      width: 100%;
+      margin: 3rem;
+      margin-left: 4.5rem;
+    }
   }
   &_right {
     width: 66.66%;
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
+    @include respond(phone) {
+      display: inline-block;
+      width: 100%;
+    }
   }
   &_img {
     display: block;
     width: 100%;
+    @include respond(tab-port) {
+      margin: 3rem 3rem 4rem 3rem;
+    }
+    @include respond(phone) {
+      width: 80%;
+      margin: 0;
+    }
   }
   &_text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
     columns: 10rem;
     hyphens: auto;
+    @include respond(phone) {
+      columns: 14rem;
+    }
   }
 }
