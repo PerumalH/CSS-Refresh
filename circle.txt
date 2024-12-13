@@ -74,6 +74,8 @@ Your idea of creating three distinct versions of the app — for couples, friend
 
 ### **1. Couples Version:**
    - **Focus:** Trust, transparency, and deep emotional connection.
+
+   
    - **Core Features:**
      - **Exclusive chat:** One-to-one, completely private.
      - **Shared moments:** A dedicated space for photos, videos, and memories.
